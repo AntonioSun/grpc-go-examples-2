@@ -9,8 +9,8 @@ import (
 	"golang.org/x/net/context"
 	//helloworld "google.golang.org/grpc/examples/helloworld/helloworld"
 	//hwmock "google.golang.org/grpc/examples/helloworld/mock_helloworld"
-	helloworld "github.com/mmcc007/go/examples/helloworld/helloworld"
-	hwmock "github.com/mmcc007/go/examples/helloworld/mock_helloworld"
+	helloworld "github.com/AntonioSun/grpc-go-examples-2/examples/helloworld/helloworld"
+	hwmock "github.com/AntonioSun/grpc-go-examples-2/examples/helloworld/mock_helloworld"
 )
 
 // rpcMsg implements the gomock.Matcher interface

@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mmcc007/go.svg?branch=master&style=flat-square)](https://travis-ci.org/mmcc007/go)
+[![Build Status](https://travis-ci.org/AntonioSun/grpc-go-examples-2.svg?branch=master&style=flat-square)](https://travis-ci.org/AntonioSun/grpc-go-examples-2)
 
 # Go Examples
 Copied gRPC examples from https://github.com/grpc/grpc-go/tree/master/examples

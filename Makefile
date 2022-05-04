@@ -70,7 +70,7 @@ build:
 	go get github.com/golang/mock/mockgen
 
 	# generate the mock server for helloworld client test
-	$(GOPATH)/bin/mockgen -destination examples/helloworld/mock_helloworld/hw_mock.go github.com/mmcc007/go/examples/helloworld/helloworld GreeterClient
+	$(GOPATH)/bin/mockgen -destination examples/helloworld/mock_helloworld/hw_mock.go github.com/AntonioSun/grpc-go-examples-2/examples/helloworld/helloworld GreeterClient
 
 test: 
 	# run all tests

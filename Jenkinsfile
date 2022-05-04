@@ -20,11 +20,11 @@ pipeline {
 	sh "/usr/local/go/bin/go get google.golang.org/grpc"
 	sh "/usr/local/go/bin/go get -u github.com/golang/protobuf/proto"
 	sh "/usr/local/go/bin/go get -u github.com/golang/protobuf/protoc-gen-go"
-	sh "/usr/local/go/bin/go get github.com/mmcc007/go/examples/route_guide/routeguide"
+	sh "/usr/local/go/bin/go get github.com/AntonioSun/grpc-go-examples-2/examples/route_guide/routeguide"
 	sh "/usr/local/go/bin/go build -o examples/route_guide/server/server examples/route_guide/server/server.go"
 	sh "/usr/local/go/bin/go get github.com/golang/mock/gomock"
 	sh "/usr/local/go/bin/go get github.com/golang/mock/mockgen"
-	sh "~/go/bin/mockgen -destination examples/helloworld/mock_helloworld/hw_mock.go github.com/mmcc007/go/examples/helloworld/helloworld GreeterClient"
+	sh "~/go/bin/mockgen -destination examples/helloworld/mock_helloworld/hw_mock.go github.com/AntonioSun/grpc-go-examples-2/examples/helloworld/helloworld GreeterClient"
 	sh "/usr/local/go/bin/go test -v ./... > test.output"
 	sh "cat test.output | ~/go/bin/go2xunit -output tests.xml"
       }

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	pb "github.com/mmcc007/go/examples/helloworld/helloworld"
+	pb "github.com/AntonioSun/grpc-go-examples-2/examples/helloworld/helloworld"
 )
 
 func TestHello(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 
-	pb "github.com/mmcc007/go/examples/route_guide/routeguide"
+	pb "github.com/AntonioSun/grpc-go-examples-2/examples/route_guide/routeguide"
 )
 
 var client pb.RouteGuideClient
